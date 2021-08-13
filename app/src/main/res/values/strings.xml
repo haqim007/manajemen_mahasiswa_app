@@ -1,0 +1,9 @@
+<resources>
+<!--    @author: Muhamad Nurul Khaqim -->
+    <string name="app_name">Manajemen Mahasiswa App</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>

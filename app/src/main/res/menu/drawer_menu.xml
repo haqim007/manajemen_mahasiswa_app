@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+  <!--
+    @author: Muhamad Nurul Khaqim
+  -->
+    <!--  Only select one menu item  -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_fakultas"
+            android:icon="@drawable/ic_fakultas"
+            android:title="@string/fakultas" />
+        <item android:id="@+id/nav_jurusan"
+            android:icon="@drawable/ic_jurusan"
+            android:title="@string/jurusan" />
+        <item android:id="@+id/nav_mahasiswa"
+            android:icon="@drawable/ic_mahasiswa"
+            android:title="@string/mahasiswa" />
+    </group>
+
+</menu>
