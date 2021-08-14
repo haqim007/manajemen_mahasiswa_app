@@ -7,8 +7,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mahasiswa Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:text="Daftar Jurusan"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@+id/mahasiswa_header"
+        />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mahasiswa_header"
+        android:background="@color/white"
+        android:dividerHeight="10dp"
+        android:id="@+id/lists_mahasiswa"
+        android:layout_marginBottom="60dp"/>
+    <Button
+        android:id="@+id/btn_add_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Mahasiswa"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

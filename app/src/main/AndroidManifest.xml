@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ManajemenMahasiswaApp">
         <activity
+            android:name=".FormMahasiswaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FormJurusanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FormFakultasActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ManajemenMahasiswaApp.NoActionBar">

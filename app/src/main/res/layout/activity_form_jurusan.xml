@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_jurusan_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Kode Jurusan"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_jurusan_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nama Jurusan"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_fakultas_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nama Fakultas"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_save_jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Simpan"
+        android:textColor="#ffffff" />
+</LinearLayout>

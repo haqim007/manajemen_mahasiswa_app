@@ -1,5 +1,5 @@
 <resources>
-<!--    @author: Muhamad Nurul Khaqim -->
+    <!--    @author: Muhamad Nurul Khaqim -->
     <string name="app_name">Manajemen Mahasiswa App</string>
     <string name="fakultas">Fakultas</string>
     <string name="jurusan">Jurusan</string>
